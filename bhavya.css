@@ -1,0 +1,42 @@
+h1{
+    font-family: 'Spicy Rice', cursive;
+    font-style: italic;
+    font-size:50px ;
+}
+ol{
+     font-size: xx-large;
+     font-family: 'Josefin Sans', sans-serif;
+}
+ul{
+    font-size:x-large;
+    font-style: oblique;
+    font:color blue;
+    font-family: 'Baloo Da 2', cursive;
+}
+body {
+    color:white;
+    background-position: top right;
+    background-size:1600px;
+    background-repeat: no-repeat;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXtspbnIIv8Vza6pueSLWRVs7gDvDVvtZpF7ucW2rSkhSt3gnR);
+   }
+a {
+    color: white;
+    background: linear-gradient(100deg, #ff3969, #9d2ecc);
+    padding: 12px;
+    font-size: 2em;
+    margin: 10px;
+    font-family: Teko;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+#ball {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 20%;
+    background: linear-gradient(45deg, violet , rgb(113, 186, 199));
+    animation-name: up_down;
+    animation-duration: 2.7s;
+    animation-iteration-count: infinite;
+    border-radius: 25px;
+}
