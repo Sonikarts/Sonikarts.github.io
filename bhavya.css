@@ -19,15 +19,6 @@ body {
     background-size:1600px;
     background-repeat: no-repeat;
     background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXtspbnIIv8Vza6pueSLWRVs7gDvDVvtZpF7ucW2rSkhSt3gnR);
-   }
-a {
-    color: white;
-    background: linear-gradient(100deg, #ff3969, #9d2ecc);
-    padding: 12px;
-    font-size: 2em;
-    margin: 10px;
-    font-family: Teko;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 #ball {
     position: absolute;
