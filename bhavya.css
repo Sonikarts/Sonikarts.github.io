@@ -20,14 +20,3 @@ body {
     background-repeat: no-repeat;
     background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXtspbnIIv8Vza6pueSLWRVs7gDvDVvtZpF7ucW2rSkhSt3gnR);
 }
-#ball {
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    left: 20%;
-    background: linear-gradient(45deg, violet , rgb(113, 186, 199));
-    animation-name: up_down;
-    animation-duration: 2.7s;
-    animation-iteration-count: infinite;
-    border-radius: 25px;
-}

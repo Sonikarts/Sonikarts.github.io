@@ -10,7 +10,7 @@
             }
             h1{
                 font-family: 'Playfair Display', serif;
-                font-size:150px;
+                font-size:100px;
             }
             h2{
                 font-family:'Josefin Sans', sans-serif;
@@ -24,10 +24,36 @@
                 font-family: 'Comic Neue', cursive;  
                 font-size:24px;
             }
+            #ball {
+                 position: absolute;
+                 height: 50px;
+                 width: 50px;
+                 left: 20%;
+                background: linear-gradient(45deg, violet , rgb(113, 186, 199));
+                animation-name: up_down;
+                 animation-duration: 2.7s;
+                animation-iteration-count: infinite;
+                  border-radius: 30px;
+                }
+                @keyframes up_down{
+                 0% {
+                     top: 100px;
+                     width: 52px;
+                    }
+                50% {
+                     top: 10px;
+                     width: 50px;
+                    }
+                100% {
+                     top: 100px;
+                     width: 52px;
+                    }    
+                }    
         </style>
     </head>
 </html>
 <body>
+    <div id="ball"></div>
     <h1 align="center">ABOUT CORONA.</h1>
     <h2>What is corona.</h2>
     <p>
